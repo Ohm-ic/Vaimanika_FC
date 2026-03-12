@@ -10790,7 +10790,7 @@
 	)
 	(global_label "IMU2_INT1"
 		(shape input)
-		(at 104.14 96.52 0)
+		(at 104.14 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10800,7 +10800,7 @@
 		)
 		(uuid "7df77b71-5b82-42ce-9f58-a021a65a5fbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.8014 96.52 0)
+			(at 116.8014 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
