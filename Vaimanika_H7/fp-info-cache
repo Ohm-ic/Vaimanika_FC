@@ -1,4 +1,4 @@
-26454523481624326
+26458069674289968
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73136,6 +73136,13 @@ LGA-8_DPS310XTSA1
 8
 8
 New_Library
+LGA-14_L3.0-W2.5-P0.50-TL
+
+
+0
+14
+14
+New_Library
 LGA-16_L4.5-W3.0-P0.50-BL
 
 
@@ -73226,6 +73233,13 @@ SolderPads_1x8
 0
 8
 8
+New_Library
+TF-SMD_HYCW104-TF08-375B
+
+
+0
+12
+11
 New_Library
 TF-SMD_TF-CARD-H1.8
 

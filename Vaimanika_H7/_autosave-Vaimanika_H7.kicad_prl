@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_fffdaaef",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffef",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,15 +59,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Vaimanika_H7_Sensor.kicad_prl",
+    "filename": "_autosave-Vaimanika_H7.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
-      false,
-      false,
       false,
       false,
       false,
@@ -93,29 +89,21 @@
       8,
       9,
       10,
-      11,
-      12,
-      13,
-      14,
-      15
+      11
     ],
     "col_widths": [
-      76,
-      70,
-      46,
-      32,
-      46,
-      46,
-      46,
-      34,
-      46,
-      46,
-      46,
-      46,
-      46,
-      46,
-      46,
-      46
+      186,
+      171,
+      112,
+      79,
+      112,
+      112,
+      112,
+      83,
+      112,
+      112,
+      112,
+      112
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
