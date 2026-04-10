@@ -6789,12 +6789,6 @@
 		(uuid "293e50c2-3ac6-4128-9e04-703a93eed85d")
 	)
 	(junction
-		(at 58.42 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e36de40-cc13-4eca-aac4-5b0e27e9b153")
-	)
-	(junction
 		(at 49.53 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6859,12 +6853,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ead3c5f-edcf-41b7-a52d-e66c387857be")
-	)
-	(junction
-		(at 58.42 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "508318a1-b936-419d-b0b4-75e5d6a341b2")
 	)
 	(junction
 		(at 83.82 40.64)
@@ -7336,7 +7324,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 160.02) (xy 50.8 161.29)
+			(xy 50.8 157.48) (xy 50.8 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8146,6 +8134,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 162.56) (xy 58.42 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cc1530-8921-40f5-8cbd-9aae610ff124")
+	)
+	(wire
+		(pts
 			(xy 259.08 44.45) (xy 262.89 44.45)
 		)
 		(stroke
@@ -8766,16 +8764,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 160.02) (xy 58.42 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "897a8720-7917-4002-b0b7-70d6d22c1789")
-	)
-	(wire
-		(pts
 			(xy 210.82 189.23) (xy 210.82 191.77)
 		)
 		(stroke
@@ -8916,7 +8904,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 161.29) (xy 50.8 162.56)
+			(xy 50.8 161.29) (xy 50.8 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9773,6 +9761,16 @@
 			(type default)
 		)
 		(uuid "fd96e026-05ab-46b8-a3f7-dbd4fda9e23a")
+	)
+	(wire
+		(pts
+			(xy 58.42 157.48) (xy 58.42 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe99562b-a92f-449b-b48f-32682e4ba21c")
 	)
 	(global_label "CS_FLASH"
 		(shape input)
@@ -11404,22 +11402,22 @@
 	)
 	(global_label "IMU2_CSB1"
 		(shape input)
-		(at 58.42 83.82 180)
+		(at 104.14 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "bf14c0b0-4390-4b01-ae36-44f7231a3c6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.912 83.82 0)
+			(at 117.648 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11756,22 +11754,22 @@
 	)
 	(global_label "IMU2_INT3"
 		(shape input)
-		(at 58.42 76.2 180)
+		(at 104.14 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fc6051c0-dff5-42c9-a330-88dd7fd190c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.7586 76.2 0)
+			(at 116.8014 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12879,7 +12877,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 160.02 90)
+		(at 54.61 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12887,7 +12885,7 @@
 		(dnp no)
 		(uuid "1c10df4e-58ab-43d0-98a9-6021a608e010")
 		(property "Reference" "C3"
-			(at 54.61 153.416 90)
+			(at 54.61 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12895,7 +12893,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 54.61 155.956 90)
+			(at 54.61 153.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12903,7 +12901,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 58.42 159.0548 0)
+			(at 58.42 156.5148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12912,7 +12910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 160.02 0)
+			(at 54.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12921,7 +12919,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 54.61 160.02 0)
+			(at 54.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12930,7 +12928,7 @@
 			)
 		)
 		(property "LCSC" "C20539421"
-			(at 54.61 160.02 90)
+			(at 54.61 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12939,7 +12937,7 @@
 			)
 		)
 		(property "BOARD" "SENSOR"
-			(at 54.61 160.02 90)
+			(at 54.61 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13415,7 +13413,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 162.56 90)
+		(at 54.61 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13423,7 +13421,7 @@
 		(dnp no)
 		(uuid "2a8dedf2-43df-451f-86e7-1cdbc4b5b600")
 		(property "Reference" "C4"
-			(at 54.61 168.402 90)
+			(at 54.61 170.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13431,7 +13429,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 54.61 166.116 90)
+			(at 54.61 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13439,7 +13437,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 58.42 161.5948 0)
+			(at 58.42 164.1348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13448,7 +13446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 162.56 0)
+			(at 54.61 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13457,7 +13455,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 54.61 162.56 0)
+			(at 54.61 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13466,7 +13464,7 @@
 			)
 		)
 		(property "LCSC" "C20539421"
-			(at 54.61 162.56 90)
+			(at 54.61 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13475,7 +13473,7 @@
 			)
 		)
 		(property "BOARD" "SENSOR"
-			(at 54.61 162.56 90)
+			(at 54.61 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
