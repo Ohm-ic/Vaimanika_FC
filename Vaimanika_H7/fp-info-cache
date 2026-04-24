@@ -1,4 +1,4 @@
-26458069674289968
+26461622169123058
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73128,6 +73128,20 @@ CRYSTAL-SMD_4P-L3.2-W2.5-BL_SIT8008BI
 0
 4
 4
+New_Library
+FPC-SMD_20P-P0.50_0.5K-AS-20PWB-RW
+
+
+0
+22
+22
+New_Library
+FPC-SMD_40P-P0.50_AFC24-S40FIA-HF
+
+
+0
+42
+42
 New_Library
 LGA-8_DPS310XTSA1
 
