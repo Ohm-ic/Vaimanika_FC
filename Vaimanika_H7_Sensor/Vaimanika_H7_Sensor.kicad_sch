@@ -11882,6 +11882,28 @@
 			)
 		)
 	)
+	(global_label "BUZZER"
+		(shape input)
+		(at 104.14 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cfe9600-bed6-4597-bb07-8547419c7bd5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.5637 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3.3V"
 		(shape input)
 		(at 165.1 110.49 0)
@@ -12806,6 +12828,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX_PPM"
+		(shape input)
+		(at 104.14 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "882d17ff-3914-4e77-b683-7ebc55a5589f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.5637 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
