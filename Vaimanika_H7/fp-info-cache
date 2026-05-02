@@ -1,4 +1,4 @@
-26465177446200183
+26466955154165139
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73114,6 +73114,13 @@ net tie
 0
 4
 4
+New_Library
+CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PLB
+
+
+0
+6
+6
 New_Library
 CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PWB
 
