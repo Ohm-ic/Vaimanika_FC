@@ -3310,6 +3310,223 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "New_Library:WAFER-GH1.25-4PLB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WAFER-GH1.25-4PLB"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PLB"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3029370.pdf"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XUNPU(讯普)"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "WAFER-GH1.25-4PLB"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C3029370"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WAFER-GH1.25-4PLB_0_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 8.89 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "New_Library:WAFER-GH1.25-4PWB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5244,12 +5461,6 @@
 		(uuid "16a46562-32a9-437f-834e-259aacebff04")
 	)
 	(junction
-		(at 318.77 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c7c4062-aec5-4764-b659-dd90c8de4d90")
-	)
-	(junction
 		(at 123.19 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5260,6 +5471,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "244a9aeb-2067-47e7-9fe4-f6746f9242c7")
+	)
+	(junction
+		(at 317.5 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "256de2de-754c-4b83-9d4d-2d84cd4c40c7")
 	)
 	(junction
 		(at 179.07 54.61)
@@ -5334,6 +5551,12 @@
 		(uuid "66e35580-e93c-4ac2-9dc1-ac9b1a82262f")
 	)
 	(junction
+		(at 317.5 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "684a8694-3d1c-4d9b-bf6a-95f87851cfef")
+	)
+	(junction
 		(at 85.09 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5386,12 +5609,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7704d070-04af-4114-bc47-2816df8ba0af")
-	)
-	(junction
-		(at 318.77 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7886cc48-b612-4d86-b7c2-63effe0936d4")
 	)
 	(junction
 		(at 66.04 163.83)
@@ -5452,12 +5669,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98b514d5-95d2-4b27-b6c3-9b2e08e9293b")
-	)
-	(junction
-		(at 318.77 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98b96c91-46d2-4dbc-82a5-c08720804575")
 	)
 	(junction
 		(at 194.31 36.83)
@@ -5560,6 +5771,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c787570a-6c45-4ffe-ad36-bd12b891e0e8")
+	)
+	(junction
+		(at 317.5 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c92f6bdd-4198-463d-b0cb-bbe47ea9dd66")
 	)
 	(junction
 		(at 48.26 173.99)
@@ -5861,16 +6078,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 106.68) (xy 323.85 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a5a4563-83aa-4ed6-b771-517fcb9dfbe5")
-	)
-	(wire
-		(pts
 			(xy 171.45 57.15) (xy 171.45 54.61)
 		)
 		(stroke
@@ -5958,6 +6165,26 @@
 			(type default)
 		)
 		(uuid "129f4dab-c7ca-4f1c-ab61-493e30c048ca")
+	)
+	(wire
+		(pts
+			(xy 317.5 125.73) (xy 323.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13153e48-87f7-4785-bd6a-cfd9832c177f")
+	)
+	(wire
+		(pts
+			(xy 317.5 62.23) (xy 323.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e537d3-ff31-4b4f-b2b1-02019643913f")
 	)
 	(wire
 		(pts
@@ -6181,7 +6408,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 74.93) (xy 309.88 80.01)
+			(xy 309.88 74.93) (xy 309.88 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6321,6 +6548,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 81.28) (xy 323.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc006b6-af08-487e-a67f-d3ed9dc8d320")
+	)
+	(wire
+		(pts
 			(xy 66.04 173.99) (xy 85.09 173.99)
 		)
 		(stroke
@@ -6361,7 +6598,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 101.6) (xy 318.77 101.6)
+			(xy 309.88 102.87) (xy 317.5 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6651,6 +6888,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 83.82) (xy 323.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a59704-e3f0-481b-a8d5-c3fb58b965a7")
+	)
+	(wire
+		(pts
 			(xy 147.32 120.65) (xy 147.32 121.92)
 		)
 		(stroke
@@ -6921,7 +7168,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 119.38) (xy 309.88 124.46)
+			(xy 309.88 119.38) (xy 309.88 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7141,6 +7388,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 102.87) (xy 323.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f10b15-8552-4e23-b1d6-4ca5a5759a38")
+	)
+	(wire
+		(pts
 			(xy 265.43 105.41) (xy 265.43 107.95)
 		)
 		(stroke
@@ -7168,16 +7425,6 @@
 			(type default)
 		)
 		(uuid "772feb0f-0fe0-4fe9-bdc4-810049b87354")
-	)
-	(wire
-		(pts
-			(xy 318.77 101.6) (xy 323.85 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d83dbf-c79c-45ed-9de5-9e4de5341828")
 	)
 	(wire
 		(pts
@@ -7368,16 +7615,6 @@
 			(type default)
 		)
 		(uuid "85f863c5-b941-48d6-bb12-a093499957d9")
-	)
-	(wire
-		(pts
-			(xy 318.77 80.01) (xy 323.85 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "884646b0-b9a5-4f9b-b73b-bbd1d9fe85a7")
 	)
 	(wire
 		(pts
@@ -7601,7 +7838,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 96.52) (xy 309.88 101.6)
+			(xy 309.88 96.52) (xy 309.88 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7668,6 +7905,16 @@
 			(type default)
 		)
 		(uuid "a8722a61-0dae-42ed-880f-5a2728693688")
+	)
+	(wire
+		(pts
+			(xy 317.5 102.87) (xy 323.85 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ab9a9c-f175-4647-a01d-c3a05db246b4")
 	)
 	(wire
 		(pts
@@ -7851,16 +8098,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 62.23) (xy 323.85 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6c94a81-4699-47c1-9942-2e13ff69a7b3")
-	)
-	(wire
-		(pts
 			(xy 198.12 63.5) (xy 198.12 66.04)
 		)
 		(stroke
@@ -7878,6 +8115,16 @@
 			(type default)
 		)
 		(uuid "b6d836a7-99ac-40a0-8b87-5aa0d51fba53")
+	)
+	(wire
+		(pts
+			(xy 323.85 125.73) (xy 323.85 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9cac60c-ab03-47f4-bb65-39296257a21a")
 	)
 	(wire
 		(pts
@@ -8211,7 +8458,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 124.46) (xy 318.77 124.46)
+			(xy 309.88 125.73) (xy 317.5 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8291,6 +8538,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 106.68) (xy 323.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86ae1de-41db-40b0-bcf3-d2618d7c5ad3")
+	)
+	(wire
+		(pts
 			(xy 102.87 40.64) (xy 105.41 40.64)
 		)
 		(stroke
@@ -8321,7 +8578,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 80.01) (xy 318.77 80.01)
+			(xy 309.88 81.28) (xy 317.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8501,6 +8758,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 81.28) (xy 323.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0b6985-68ea-4e35-8599-7b325386bf8f")
+	)
+	(wire
+		(pts
 			(xy 205.74 175.26) (xy 205.74 176.53)
 		)
 		(stroke
@@ -8518,16 +8785,6 @@
 			(type default)
 		)
 		(uuid "ee4552c9-3261-4219-9cf0-d25c236310cb")
-	)
-	(wire
-		(pts
-			(xy 318.77 124.46) (xy 323.85 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec5eea0-4aa9-45dd-b88b-abde8c0d113e")
 	)
 	(wire
 		(pts
@@ -8558,16 +8815,6 @@
 			(type default)
 		)
 		(uuid "f0241768-11a8-48d9-bda7-6af5142c114a")
-	)
-	(wire
-		(pts
-			(xy 318.77 83.82) (xy 323.85 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0807739-d4c4-4df1-b9d2-7b89d9e41506")
 	)
 	(wire
 		(pts
@@ -13223,6 +13470,124 @@
 		)
 	)
 	(symbol
+		(lib_id "New_Library:WAFER-GH1.25-4PLB")
+		(at 314.96 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56fd627c-f135-4f9d-b932-14916b516151")
+		(property "Reference" "U7"
+			(at 321.31 70.4849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WAFER-GH1.25-4PLB"
+			(at 321.31 73.0249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "New_Library:CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PLB"
+			(at 314.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3029370.pdf"
+			(at 314.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU(讯普)"
+			(at 314.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WAFER-GH1.25-4PLB"
+			(at 314.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3029370"
+			(at 314.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3029370"
+			(at 314.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a21b5d50-8387-4607-87a7-16e09f54c88e")
+		)
+		(pin "5"
+			(uuid "3d2d5465-d8ce-48a1-a109-be6a9fe91e25")
+		)
+		(pin "2"
+			(uuid "fb5e33f7-fdef-4f6a-9d6e-d16912ee4795")
+		)
+		(pin "3"
+			(uuid "cf62324e-f21e-4f89-8025-db294ea071b0")
+		)
+		(pin "4"
+			(uuid "3cad6c31-8c65-4e5f-a9bc-b30de20ce66e")
+		)
+		(pin "6"
+			(uuid "8d1212fb-82f3-4928-994a-b720260407f9")
+		)
+		(instances
+			(project "Vaimanika_H7"
+				(path "/0142fa91-cde5-4e00-8a71-4202316295cd"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 45.72 39.37 0)
 		(unit 1)
@@ -13380,124 +13745,6 @@
 			(project "Vaimanika_H7"
 				(path "/0142fa91-cde5-4e00-8a71-4202316295cd"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:WAFER-GH1.25-4PWB")
-		(at 316.23 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ac95092-3ee1-431a-b300-eabdf63922a8")
-		(property "Reference" "U8"
-			(at 322.58 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WAFER-GH1.25-4PWB"
-			(at 322.58 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "New_Library:CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PWB"
-			(at 316.23 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C3029379.pdf"
-			(at 316.23 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XUNPU(讯普)"
-			(at 316.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "WAFER-GH1.25-4PWB"
-			(at 316.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C3029379"
-			(at 316.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3029379"
-			(at 316.23 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b61353f-c7da-46d5-8e9f-e834c874dfdf")
-		)
-		(pin "3"
-			(uuid "c93e6f7d-746d-4ff5-bf27-7ea9814a4793")
-		)
-		(pin "4"
-			(uuid "98b7cbec-674e-4862-b5f5-ba31fd6b9038")
-		)
-		(pin "1"
-			(uuid "efc9f437-e1e3-4b84-9fc9-607423ee89b4")
-		)
-		(pin "6"
-			(uuid "4a61a019-ab07-4b9a-b998-3d61d6e2bf0f")
-		)
-		(pin "5"
-			(uuid "b6193c20-ed2e-4022-b382-f2f13f804959")
-		)
-		(instances
-			(project "Vaimanika_H7"
-				(path "/0142fa91-cde5-4e00-8a71-4202316295cd"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -16256,6 +16503,124 @@
 		)
 	)
 	(symbol
+		(lib_id "New_Library:WAFER-GH1.25-4PLB")
+		(at 314.96 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "944cf4af-75aa-4a31-891b-757da97c25f0")
+		(property "Reference" "U8"
+			(at 321.31 92.0749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WAFER-GH1.25-4PLB"
+			(at 321.31 94.6149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "New_Library:CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PLB"
+			(at 314.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3029370.pdf"
+			(at 314.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU(讯普)"
+			(at 314.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WAFER-GH1.25-4PLB"
+			(at 314.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3029370"
+			(at 314.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3029370"
+			(at 314.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3532ecc-d9d3-4a50-8080-6a1a2995ebe3")
+		)
+		(pin "5"
+			(uuid "d6a6b4c9-e971-4195-aeb3-0f1a7f93da19")
+		)
+		(pin "2"
+			(uuid "b98136ea-759b-40fe-b2c3-5a5471a334d3")
+		)
+		(pin "3"
+			(uuid "880db932-6b58-4982-8658-df47b6cce41e")
+		)
+		(pin "4"
+			(uuid "b45dcf72-9893-49d4-8ee0-9c35bd4ca715")
+		)
+		(pin "6"
+			(uuid "6cbaa2f1-f7b3-4fe9-948b-95334f23e339")
+		)
+		(instances
+			(project "Vaimanika_H7"
+				(path "/0142fa91-cde5-4e00-8a71-4202316295cd"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 27.94 90)
 		(unit 1)
@@ -16826,10 +17191,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0edcc99-26b0-4a73-8e1d-729c93c23113")
 		(property "Reference" "FPC1"
-			(at 281.94 74.9299 0)
+			(at 281.94 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16838,7 +17202,7 @@
 			)
 		)
 		(property "Value" "AFC24-S40FIA-HF"
-			(at 281.94 77.4699 0)
+			(at 281.94 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19835,124 +20199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:WAFER-GH1.25-4PWB")
-		(at 316.23 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2fa652e-4e84-4f5a-912d-18dbe4a21583")
-		(property "Reference" "U9"
-			(at 322.58 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WAFER-GH1.25-4PWB"
-			(at 322.58 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "New_Library:CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PWB"
-			(at 316.23 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C3029379.pdf"
-			(at 316.23 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XUNPU(讯普)"
-			(at 316.23 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "WAFER-GH1.25-4PWB"
-			(at 316.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C3029379"
-			(at 316.23 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3029379"
-			(at 316.23 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7bea2450-724e-43ef-be3e-fcd4bceaebfe")
-		)
-		(pin "3"
-			(uuid "eadfa409-94ab-4e6f-858e-935b74cac580")
-		)
-		(pin "4"
-			(uuid "dd034d31-733a-472b-9a32-50883d9f9d6c")
-		)
-		(pin "1"
-			(uuid "55347138-877c-40ae-8b00-cc8a83677a5c")
-		)
-		(pin "6"
-			(uuid "2645a53b-5626-4137-956b-037cd57fad71")
-		)
-		(pin "5"
-			(uuid "c9a0c2fe-f0fb-4257-ad22-71afa841a23f")
-		)
-		(instances
-			(project "Vaimanika_H7"
-				(path "/0142fa91-cde5-4e00-8a71-4202316295cd"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 102.87 107.95 90)
 		(unit 1)
@@ -21117,17 +21363,17 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:WAFER-GH1.25-4PWB")
-		(at 316.23 71.12 0)
+		(lib_id "New_Library:WAFER-GH1.25-4PLB")
+		(at 314.96 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd047e22-a3df-4016-b545-8bcf5bb42dac")
-		(property "Reference" "U7"
-			(at 322.58 69.8499 0)
+		(uuid "fcf33e9f-d00b-4d21-8054-f01b4e38f8b0")
+		(property "Reference" "U9"
+			(at 321.31 114.9349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21135,8 +21381,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WAFER-GH1.25-4PWB"
-			(at 322.58 72.3899 0)
+		(property "Value" "WAFER-GH1.25-4PLB"
+			(at 321.31 117.4749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21144,8 +21390,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "New_Library:CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PWB"
-			(at 316.23 87.63 0)
+		(property "Footprint" "New_Library:CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PLB"
+			(at 314.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21153,8 +21399,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C3029379.pdf"
-			(at 316.23 90.17 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3029370.pdf"
+			(at 314.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21163,7 +21409,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 316.23 71.12 0)
+			(at 314.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21172,7 +21418,7 @@
 			)
 		)
 		(property "Manufacturer" "XUNPU(讯普)"
-			(at 316.23 92.71 0)
+			(at 314.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21180,8 +21426,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "WAFER-GH1.25-4PWB"
-			(at 316.23 95.25 0)
+		(property "MPN" "WAFER-GH1.25-4PLB"
+			(at 314.96 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21189,8 +21435,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C3029379"
-			(at 316.23 97.79 0)
+		(property "LCSC Part" "C3029370"
+			(at 314.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21198,37 +21444,37 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3029379"
-			(at 316.23 71.12 0)
+		(property "LCSC" "C3029370"
+			(at 314.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "b1ee260c-4c30-4aee-949f-5e25585efad2")
-		)
-		(pin "3"
-			(uuid "8b73a666-f1bd-474a-b01d-52bbe60a15ad")
-		)
-		(pin "4"
-			(uuid "701834b4-def2-4b49-b4e4-111361b6c439")
 		)
 		(pin "1"
-			(uuid "70aa94b6-2815-406c-954d-bca846bbf26a")
-		)
-		(pin "6"
-			(uuid "8aae7453-c28c-4ea1-b032-043c82f70386")
+			(uuid "e700ff4c-15f6-4a18-8e71-f91ab485636b")
 		)
 		(pin "5"
-			(uuid "9535f3c8-1e4d-4c98-8641-e9fb8c70236f")
+			(uuid "9682dd1e-7720-4a4a-9207-a269113f0a69")
+		)
+		(pin "2"
+			(uuid "37c26e20-cf07-4d08-b92d-68c0a7cfeb82")
+		)
+		(pin "3"
+			(uuid "a340bf35-69a7-40a8-a912-438ccc8d2f59")
+		)
+		(pin "4"
+			(uuid "5ddc3c39-409f-47ea-ae5b-9fa8cd6677a7")
+		)
+		(pin "6"
+			(uuid "c975f139-3782-42a0-b044-b3d447e9dbe5")
 		)
 		(instances
-			(project "Vaimanika_H7"
+			(project ""
 				(path "/0142fa91-cde5-4e00-8a71-4202316295cd"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
