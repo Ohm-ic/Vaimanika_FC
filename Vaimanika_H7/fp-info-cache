@@ -1,4 +1,4 @@
-26466955154165139
+26468732886940003
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73282,6 +73282,13 @@ TF-SMD_TF-CARD-H1.8
 0
 15
 13
+New_Library
+USB-C-SMD_TYPE-C-16PIN-2MD-073
+
+
+0
+18
+14
 New_Library
 Untitled
 
