@@ -11507,7 +11507,7 @@
 			)
 		)
 	)
-	(global_label "LED1"
+	(global_label "UART7_RX"
 		(shape input)
 		(at 58.42 91.44 180)
 		(fields_autoplaced yes)
@@ -11519,7 +11519,7 @@
 		)
 		(uuid "1daeedf4-e6ec-417b-927a-b9fe5eb16b8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7782 91.44 0)
+			(at 46.1215 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11883,7 +11883,7 @@
 			)
 		)
 	)
-	(global_label "USART1_RX"
+	(global_label "USART2_RX"
 		(shape input)
 		(at 58.42 132.08 180)
 		(fields_autoplaced yes)
@@ -12480,7 +12480,7 @@
 			)
 		)
 	)
-	(global_label "LED0"
+	(global_label "UART7_TX"
 		(shape input)
 		(at 58.42 93.98 180)
 		(fields_autoplaced yes)
@@ -12492,7 +12492,7 @@
 		)
 		(uuid "784b30d0-99c3-44f8-a7bb-d748834019c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7782 93.98 0)
+			(at 46.4239 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13939,7 +13939,7 @@
 			)
 		)
 	)
-	(global_label "USART1_TX"
+	(global_label "USART2_TX"
 		(shape input)
 		(at 58.42 129.54 180)
 		(fields_autoplaced yes)

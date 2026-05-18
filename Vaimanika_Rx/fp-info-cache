@@ -1,4 +1,4 @@
-26472289341043591
+26482961919244443
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73150,6 +73150,20 @@ CRYSTAL-SMD_4P-L3.2-W2.5-BL_SIT8008BI
 4
 4
 New_Library
+FILTER-SMD_4P-L1.0-W0.5-L_DEA102700LT-XXX
+
+
+0
+4
+4
+New_Library
+FILTER-SMD_10P-L2.0-W1.6-BL
+
+
+0
+10
+10
+New_Library
 FPC-SMD_20P-P0.50_0.5K-AS-20PWB-RW
 
 
@@ -73185,7 +73199,28 @@ LGA-16_L4.5-W3.0-P0.50-BL
 16
 16
 New_Library
+QFN-12_L2.0-W2.0-P0.50-BL-EP
+
+
+0
+13
+13
+New_Library
+QFN-16_L3.0-W3.0-P0.50-BL-EP1.7
+
+
+0
+17
+17
+New_Library
 QFN-32_L5.0-W5.0-P0.50-BL-EP3.7
+
+
+0
+33
+33
+New_Library
+QFN-32_L5.0-W5.0-P0.50-TL-EP3.7
 
 
 0
@@ -73310,6 +73345,13 @@ Untitled
 0
 2
 2
+New_Library
+X2SON-4_L1.0-W1.0-P0.65-TL-EP
+
+
+0
+5
+5
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
