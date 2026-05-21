@@ -12800,6 +12800,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C492408"
+			(at 204.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "35288431-314c-4044-86fa-3e346ab667e7")
 		)
@@ -15437,6 +15446,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C492408"
 			(at 228.6 71.12 0)
 			(effects
 				(font
@@ -18285,6 +18303,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C492401"
+			(at 254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "52a47eb2-11d8-4a77-ad7a-c7c51823d127")
 		)
@@ -19138,6 +19165,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C492408"
 			(at 204.47 44.45 0)
 			(effects
 				(font
