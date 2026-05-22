@@ -1,4 +1,4 @@
-26468732886940003
+26490077271288242
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73115,6 +73115,13 @@ net tie
 4
 4
 New_Library
+ANT-SMD_L3.2-W1.6
+
+
+0
+2
+2
+New_Library
 CONN-SMD_4P-P1.25_XUNPU_WAFER-GH1.25-4PLB
 
 
@@ -73136,6 +73143,13 @@ CONN-TH_3P-P1.25_GH1.25
 5
 5
 New_Library
+CRYSTAL-SMD_4P-L1.6-W1.2-BL
+
+
+0
+4
+4
+New_Library
 CRYSTAL-SMD_4P-L3.2-W2.5-BL
 
 
@@ -73150,6 +73164,20 @@ CRYSTAL-SMD_4P-L3.2-W2.5-BL_SIT8008BI
 4
 4
 New_Library
+FILTER-SMD_4P-L1.0-W0.5-L_DEA102700LT-XXX
+
+
+0
+4
+4
+New_Library
+FILTER-SMD_10P-L2.0-W1.6-BL
+
+
+0
+10
+10
+New_Library
 FPC-SMD_20P-P0.50_0.5K-AS-20PWB-RW
 
 
@@ -73163,6 +73191,13 @@ FPC-SMD_40P-P0.50_AFC24-S40FIA-HF
 0
 42
 42
+New_Library
+LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B
+
+
+0
+4
+4
 New_Library
 LGA-8_DPS310XTSA1
 
@@ -73185,6 +73220,41 @@ LGA-16_L4.5-W3.0-P0.50-BL
 16
 16
 New_Library
+QFN-12_L2.0-W2.0-P0.50-BL-EP
+
+
+0
+13
+13
+New_Library
+QFN-16_L3.0-W3.0-P0.50-BL-EP1.7
+
+
+0
+17
+17
+New_Library
+QFN-32_L5.0-W5.0-P0.50-BL-EP3.7
+
+
+0
+33
+33
+New_Library
+QFN-32_L5.0-W5.0-P0.50-TL-EP3.7
+
+
+0
+33
+33
+New_Library
+RF-SMD_FRF05002-JSS103M
+3310472210，IPE-X IPX，
+
+0
+3
+3
+New_Library
 SENSOR-SMD_SPL06-001
 
 
@@ -73198,6 +73268,13 @@ SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL
 0
 8
 8
+New_Library
+SW-SMD_4P-L3.0-W2.0-P0.85-LS3.5
+
+
+0
+2
+2
 New_Library
 SW-SMD_L3.9-W3.0-P4.45
 
@@ -73296,6 +73373,13 @@ Untitled
 0
 2
 2
+New_Library
+X2SON-4_L1.0-W1.0-P0.65-TL-EP
+
+
+0
+5
+5
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
