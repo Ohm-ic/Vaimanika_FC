@@ -10694,6 +10694,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 171.45) (xy 248.92 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932c4f26-ed5e-45d7-9793-9497c02a1c75")
+	)
+	(wire
+		(pts
 			(xy 44.45 163.83) (xy 44.45 167.64)
 		)
 		(stroke
@@ -12368,6 +12378,28 @@
 			)
 		)
 	)
+	(global_label "PA15"
+		(shape input)
+		(at 120.65 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2905943e-3158-4988-aab0-d84272226b8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.4128 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CS_FLASH"
 		(shape input)
 		(at 58.42 81.28 180)
@@ -13494,6 +13526,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA15"
+		(shape input)
+		(at 104.14 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "822def99-0ad9-4e0d-9ea7-7f46dbde7b31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.9028 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15355,6 +15409,71 @@
 			(project "Vaimanika_H7_Sensor"
 				(path "/23770a09-842c-46e7-8c45-82f07b31c15d"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03de6d12-2e06-4aee-bda4-fdfbb300c8f9")
+		(property "Reference" "TP4"
+			(at 240.538 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 240.538 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 243.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfef6727-cbf2-4d30-9a8c-344e25f7b717")
+		)
+		(instances
+			(project "Vaimanika_H7_Sensor"
+				(path "/23770a09-842c-46e7-8c45-82f07b31c15d"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -17267,6 +17386,71 @@
 			(project "Vaimanika_H7_Sensor"
 				(path "/23770a09-842c-46e7-8c45-82f07b31c15d"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dac0c92-65ef-446f-bb83-f969e18ad7d5")
+		(property "Reference" "TP5"
+			(at 117.348 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 117.348 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86b0f9fb-6271-4a0f-ad77-4183da583a2d")
+		)
+		(instances
+			(project "Vaimanika_H7_Sensor"
+				(path "/23770a09-842c-46e7-8c45-82f07b31c15d"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -21867,6 +22051,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 248.92 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93863519-845f-4959-9b3b-16378329f524")
+		(property "Reference" "#PWR056"
+			(at 255.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35b55891-7bb2-4710-8fd6-adb625a487dc")
+		)
+		(instances
+			(project "Vaimanika_H7_Sensor"
+				(path "/23770a09-842c-46e7-8c45-82f07b31c15d"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library:TF-027-H300")
 		(at 295.91 151.13 0)
 		(unit 1)
@@ -22692,10 +22943,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b4d9c25b-3307-44e0-bfe9-32368b02d414")
 		(property "Reference" "FB6"
-			(at 313.69 59.6391 0)
+			(at 314.96 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22704,7 +22954,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 313.69 62.1791 0)
+			(at 311.658 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
