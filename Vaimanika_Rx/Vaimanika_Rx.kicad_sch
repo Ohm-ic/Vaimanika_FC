@@ -8665,7 +8665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:OSC-SMD_4P-L3.2-W2.5-BL"
+		(property "Footprint" "New_Library:OSC-SMD_4P-L3.2-W2.5-BL"
 			(at 100.33 45.72 0)
 			(effects
 				(font
@@ -9098,6 +9098,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "1.2pF"
@@ -9107,6 +9108,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -10589,7 +10591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L1.6-W1.2-BL"
+		(property "Footprint" "New_Library:CRYSTAL-SMD_4P-L1.6-W1.2-BL"
 			(at 163.83 36.83 0)
 			(effects
 				(font
