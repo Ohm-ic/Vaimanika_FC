@@ -4935,6 +4935,12 @@
 		(uuid "19e1191a-66f7-48a4-b55b-db240ba35b15")
 	)
 	(junction
+		(at 237.49 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a97a740-26b8-4c56-9ce8-9f3264b87c1a")
+	)
+	(junction
 		(at 149.86 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5539,6 +5545,16 @@
 			(type default)
 		)
 		(uuid "17c3e2cd-247e-45c2-a316-42f728d1b69b")
+	)
+	(wire
+		(pts
+			(xy 237.49 124.46) (xy 237.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1926d924-f1e5-4e1a-8cd5-3f5cf0a92e2b")
 	)
 	(wire
 		(pts
@@ -6412,7 +6428,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 142.24) (xy 241.3 142.24)
+			(xy 234.95 142.24) (xy 237.49 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6449,6 +6465,16 @@
 			(type default)
 		)
 		(uuid "85fc6d7f-d54b-4daa-9bfd-7f823efa6b37")
+	)
+	(wire
+		(pts
+			(xy 237.49 142.24) (xy 241.3 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865a4db4-d241-48ca-87b3-a58233e21a56")
 	)
 	(wire
 		(pts
@@ -6859,6 +6885,16 @@
 			(type default)
 		)
 		(uuid "ae73ede9-f0b8-477c-9ea9-9807f49d41ef")
+	)
+	(wire
+		(pts
+			(xy 237.49 133.35) (xy 237.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae979caa-4eb2-4d3e-8a11-d31ef09c3b27")
 	)
 	(wire
 		(pts
@@ -12093,6 +12129,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 237.49 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61d6724c-e49e-4b0b-ade1-f0d6228f7127")
+		(property "Reference" "C27"
+			(at 233.172 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.3pF"
+			(at 238.76 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 238.4552 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1870422"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7079c2b9-dd24-4b37-aeca-3d82079c539a")
+		)
+		(pin "2"
+			(uuid "eca615af-c911-4c9d-be77-04f5c282059b")
+		)
+		(instances
+			(project "Vaimanika_Rx"
+				(path "/9053f835-6512-4eb1-a5ab-73d24a49c2c0"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 22.86 77.47 0)
 		(unit 1)
@@ -16281,6 +16395,73 @@
 			(project "Vaimanika_Rx"
 				(path "/9053f835-6512-4eb1-a5ab-73d24a49c2c0"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8a7ef23-3b70-4910-a0e8-24cf3c577cec")
+		(property "Reference" "#PWR063"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a5ac7e-db20-4a70-a5fc-b9ebc080ce38")
+		)
+		(instances
+			(project "Vaimanika_Rx"
+				(path "/9053f835-6512-4eb1-a5ab-73d24a49c2c0"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
