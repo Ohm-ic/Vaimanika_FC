@@ -1,4 +1,4 @@
-26491856983854272
+26495430848379823
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73227,6 +73227,13 @@ OSC-SMD_4P-L3.2-W2.5-BL
 4
 4
 New_Library
+Oval_Conn_01x04
+
+
+0
+4
+4
+New_Library
 QFN-12_L2.0-W2.0-P0.50-BL-EP
 
 
@@ -73262,6 +73269,13 @@ RF-SMD_FRF05002-JSS103M
 3
 3
 New_Library
+Rec_Conn_01x04
+
+
+0
+4
+4
+New_Library
 SENSOR-SMD_SPL06-001
 
 
@@ -73275,6 +73289,13 @@ SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL
 0
 8
 8
+New_Library
+SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR
+
+
+0
+5
+5
 New_Library
 SW-SMD_4P-L3.0-W2.0-P0.85-LS3.5
 
@@ -73373,13 +73394,6 @@ USB-C-SMD_TYPE-C-16PIN-2MD-073
 0
 18
 14
-New_Library
-Untitled
-
-
-0
-2
-2
 New_Library
 X2SON-4_L1.0-W1.0-P0.65-TL-EP
 
