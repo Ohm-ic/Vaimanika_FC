@@ -9611,7 +9611,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C237172"
+		(property "LCSC" "C60474"
 			(at 48.26 88.9 0)
 			(effects
 				(font
@@ -9689,7 +9689,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C237172"
+		(property "LCSC" "C60474"
 			(at 81.28 64.77 0)
 			(effects
 				(font
@@ -10117,7 +10117,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C237172"
+		(property "LCSC" "C60474"
 			(at 73.66 64.77 0)
 			(effects
 				(font
@@ -12520,7 +12520,7 @@
 		(at 172.72 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14945,7 +14945,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C237172"
+		(property "LCSC" "C60474"
 			(at 120.65 62.23 90)
 			(effects
 				(font
@@ -15590,7 +15590,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C237172"
+		(property "LCSC" "C60474"
 			(at 69.85 113.03 90)
 			(effects
 				(font
@@ -15904,7 +15904,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C237172"
+		(property "LCSC" "C60474"
 			(at 54.61 88.9 0)
 			(effects
 				(font
@@ -16049,7 +16049,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C237172"
+		(property "LCSC" "C60474"
 			(at 73.66 120.65 90)
 			(effects
 				(font
@@ -16337,7 +16337,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C237172"
+		(property "LCSC" "C60474"
 			(at 15.24 54.61 0)
 			(effects
 				(font
