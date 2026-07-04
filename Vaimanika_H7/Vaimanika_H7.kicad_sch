@@ -10507,7 +10507,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f1348fd-3e7f-4db1-9cd9-8a2820d8f895")
 		(property "Reference" "U2"
-			(at 85.09 146.05 0)
+			(at 85.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +10515,7 @@
 			)
 		)
 		(property "Value" "TPS54302"
-			(at 85.09 148.59 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
