@@ -1,4 +1,4 @@
-26495430848379823
+26504343483361338
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73192,6 +73192,13 @@ FPC-SMD_40P-P0.50_AFC24-S40FIA-HF
 42
 42
 New_Library
+HSOF-8_L10.0-W10.5-P1.20
+
+
+0
+10
+9
+New_Library
 LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B
 
 
@@ -73248,6 +73255,13 @@ QFN-16_L3.0-W3.0-P0.50-BL-EP1.7
 17
 17
 New_Library
+QFN-32_L5.0-W5.0-P0.50-BL-EP3.4
+
+
+0
+33
+33
+New_Library
 QFN-32_L5.0-W5.0-P0.50-BL-EP3.7
 
 
@@ -73261,6 +73275,13 @@ QFN-32_L5.0-W5.0-P0.50-TL-EP3.7
 0
 33
 33
+New_Library
+RES-SMD_L10.1-W6.7
+
+
+0
+4
+2
 New_Library
 RF-SMD_FRF05002-JSS103M
 3310472210，IPE-X IPX，
@@ -73394,6 +73415,20 @@ USB-C-SMD_TYPE-C-16PIN-2MD-073
 0
 18
 14
+New_Library
+VSSOP-8_L3.0-W3.0-P0.65-LS5.0-BL
+
+
+0
+8
+8
+New_Library
+WQFN-40_L6.0-W6.0-P0.50-TL-EP4.2
+
+
+0
+41
+41
 New_Library
 X2SON-4_L1.0-W1.0-P0.65-TL-EP
 

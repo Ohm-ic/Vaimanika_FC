@@ -4259,7 +4259,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 152.4) (xy 187.96 152.4)
+			(xy 160.02 152.4) (xy 175.26 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4429,16 +4429,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 152.4) (xy 160.02 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adccdb31-b30e-4dae-9f42-455413886325")
-	)
-	(wire
-		(pts
 			(xy 39.37 166.37) (xy 39.37 170.18)
 		)
 		(stroke
@@ -4466,6 +4456,16 @@
 			(type default)
 		)
 		(uuid "b3c4a681-acfe-46de-ac86-b034ba8e7a4f")
+	)
+	(wire
+		(pts
+			(xy 160.02 152.4) (xy 160.02 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d8b3f5-89b8-43b9-b2be-a970c8aecf4f")
 	)
 	(wire
 		(pts
@@ -5090,7 +5090,7 @@
 	)
 	(hierarchical_label "C"
 		(shape output)
-		(at 187.96 152.4 0)
+		(at 175.26 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
